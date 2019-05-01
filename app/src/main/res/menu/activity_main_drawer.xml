@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_add_basket_24"
+            android:title="@string/nav_order" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_bread_24"
+            android:title="@string/nav_menu" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_carbohydrates_24"
+            android:title="@string/nav_about" />
+    </group>
+
+    <item android:title="@string/nav_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_cook_24"
+                android:title="@string/nav_contact" />
+        </menu>
+    </item>
+
+</menu>
